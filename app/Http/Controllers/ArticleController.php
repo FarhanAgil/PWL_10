@@ -22,9 +22,10 @@ class ArticleController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    
+    public function create(request $request)
     {
-        //
+        return view('articles.create');
     }
 
     /**
