@@ -79,7 +79,7 @@ class ArticleController extends Controller
      * @param  \App\Models\Article  $article
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id, Article $article)
+    public function update(Request $request, $id)
     {
         $article = Article::find($id);
 
